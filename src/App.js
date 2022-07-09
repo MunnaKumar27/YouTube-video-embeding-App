@@ -3,7 +3,6 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactPlayer from 'react-player';
 import { useState } from "react";
-// import Drawcanvas from './Drawcanvas';
 import ReactCanvasPaint from 'react-canvas-paint'
 import 'react-canvas-paint/dist/index.css'
 
@@ -31,14 +30,6 @@ function App() {
   }
 
 
-
-  // const clearCanvas = () => {
-  //   const canvas = canvasRef.current;
-  //   const context = canvas.getContext("2d")
-  //   context.fillStyle = "white"
-  //   context.fillRect(0, 0, canvas.width, canvas.height)
-  // }
-
   return (
     <>
       <div className='wrapper'>
@@ -58,8 +49,6 @@ function App() {
             <ReactPlayer url={youtubeURL}
               className='video' controls />
           </div>
-          {/* <Drawcanvas ></Drawcanvas> */}
-          
           <div className="paint"><h6>Please Use Your Mouse to Draw</h6><ReactCanvasPaint />
           </div></div>
       </div>
