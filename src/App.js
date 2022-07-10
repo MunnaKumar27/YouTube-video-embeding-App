@@ -49,8 +49,11 @@ function App() {
             <ReactPlayer url={youtubeURL}
               className='video' controls />
           </div>
-          <div className="paint"><h6>Please Use Your Mouse to Draw</h6><ReactCanvasPaint />
-          </div></div>
+           <div className="paint">
+            <h6>Please Use Your Mouse to Draw</h6>
+            <ReactCanvasPaint />
+           </div>
+         </div>
       </div>
     </>
   )
