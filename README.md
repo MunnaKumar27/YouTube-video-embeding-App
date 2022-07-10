@@ -1,4 +1,5 @@
 # YouTube-Video-Embeding-App
+### This is a web app in which one can embed youtube video and draw something side by side . This is developed using react js
 # Deployed Link [Here](https://youtube-video-embeding.netlify.app/)
 # live at Youtube [Here](https://www.youtube.com/watch?v=TaKYic21tBY)
 ![image](https://user-images.githubusercontent.com/96313339/178110185-88640e9b-4ee4-4b26-91f4-be32be638bbe.png)
